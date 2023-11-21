@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Bus Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+.header {
+    text-align: left;
+    background-color: rgb(35, 133, 218);
+}
+.body{
+    background-color: #9dd7f4;
+}
+.content{
+    text-align: left;
+    background-color: #e6f2a8;
+}
+.footer{
+    background-color: #1f0533;
+}
+</style>
+<body>
+    <div class="body">
+    <div class="header">
+        <h1>Online Bus Ticket Booking</h1>
+    </div>
+
+    <div class="content">
+        <h2>Search for available buses</h2>
+        <form>
+            <label for="startpoint">Start Point:</label>
+            <input type="text" id="startpoint" name="startpoint">
+
+            <label for="endpoint">End Point:</label>
+            <input type="text" id="endpoint" name="endpoint">
+
+            <label for="date">Journey Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">journey time:</label>
+            <input type="time" id="time" name="time">
+
+            <input type="submit" value="Search">
+        </form>
+
+        <h2>Available Buses</h2>
+        <div class="buses">
+        </div>
+
+        <h2>Book a Bus</h2>
+        <form>
+            <label for="bus">Bus:</label>
+            <select id="bus" name="bus">
+            </select>
+
+            <label for="seats">Number of Seats:</label>
+            <input type="number" id="seats" name="seats" min="1">
+
+            <input type="submit" value="Book">
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Online Bus Ticket Booking</p>
+    </div>
+</div>
+</body>
+</html>
