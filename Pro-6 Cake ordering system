@@ -26,7 +26,9 @@
         <div class="container">
         <div class="cake-container">
             <div class="cake-box">
-                <img src="cake1.jpg" alt="Chocolate Layer Cake">
+                <img src="C:\Users\HP\Downloads\chocolate-cake-with-chocolate-sprinkles.jpg" alt="Chocolate Layer Cake"
+                width="200"
+                height="250">
                 <h3>Chocolate Layer Cake</h3>
                 <p>$50</p>
                 <br>
@@ -34,13 +36,17 @@
                 <br>
             </div>
             <div class="cake-box-1">
-                <img src="cake2.jpg" alt="Strawberry Cake">
+                <img src="C:\Users\HP\Downloads\zoom-view-little-round-cake-decorated-with-strawberries-white-plate.jpg" alt="Strawberry Cake"
+                width="200"
+                height="250">
                 <h3>Strawberry Cake</h3>
                 <p>$55</p>
                 <button>Add to Cart</button>
             </div>
             <div class="cake-box-2">
-                <img src="cake3.jpg" alt="Vanilla Layer Cake">
+                <img src="C:\Users\HP\Downloads\ice-cream-mango-cake.jpg" alt="Vanilla Layer Cake"
+                width="200"
+                height="250">
                 <h3>Vanilla Layer Cake</h3>
                 <p>$60</p>
                 <button>Add to Cart</button>
