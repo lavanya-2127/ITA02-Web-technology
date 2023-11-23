@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VETERINARY CARE FOR ANIMAL
+        MEDICAL SOLUTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input, select, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Appointment Booking</h2>
+    <form>
+        <label for="what kind of animal">animal type:</label>
+        <input type="text" id="animal type" name="animal type" required>
+        <label for="post complaint">post complaint:</label>
+        <input type="text" id="post complaint" name="post complaint" required>
+<label for="payment">payment:</label>
+        <select id="" name="payment" required>
+            <option value="debit card">debit card</option>
+            <option value="credit card">credit card</option>
+            <option value="upi">upi</option>
+        </select>
+
+        <label for="doctor">Select Doctor:</label>
+        <select id="" name="doctor" required>
+            <option value="dr.akshaya">Dr. akshaya</option>
+            <option value="dr.kaviya">Dr. kaviya</option>
+            <option value="dr.niveditha">dr.niveditha</option>
+        </select>
+
+        <label for=" View Vetcure details"> View Vetcure details:</label>
+        <input type="text" id=" View Vetcure details" name=" View Vetcure details" required>
+
+        <label for="complaint details">complaint details:</herf></label>
+        <input type="text" id="appointment Time" name="appointment Time" required>
+
+        <label for="feedback">feedback:</label>
+        <input type="text" id="feedback" name="feedback" required>
+</body>
+</html>
