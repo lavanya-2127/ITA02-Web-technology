@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online real estate service</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+           
+        }
+
+        .property {
+            margin-bottom: 20px;
+            border-bottom: 5px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>online real estate service</h1>
+    </header>
+    <main>
+        <div class="property">
+            <h2>beautiful home for sale</h2>
+            <p>spacious 3-bedroom home with a garden and modern amenities. located in a peaceful neighborhood.</p>
+            <p><strong>price:</strong> $300,000</p>
+            <button>contact agent</button>
+        </div>
+
+        <div class="property">
+            <h2>city apartment</h2>
+            <p>stylish 2-bedroom apartment in the heart of the city. close to public transportation and shopping centers.</p>
+            <p><strong>price:</strong> $200,000</p>
+            <button>contact agent</button>
+</div>
+<center><button>login</button></center>
+        </main>
+</body>
+</html>
