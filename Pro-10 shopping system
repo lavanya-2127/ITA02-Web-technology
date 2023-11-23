@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em; 
+        }
+        </style>
+    </head>
+<body><center>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header></center>
+    <section>
+        <div>
+            <img src="aripods.png"><br>
+            <h2> Boat airpods</h2>
+            <p>20% offer.</p>
+            <p>Rs.999</p>
+            <button>booked</button>
+        </div>
+
+        <div >
+            <img src="iphone.jpg"><br>
+            <h2>iphone</h2>
+            <p>10% offer with no cost emi.</p>
+            <p>Rs49000</p>
+            <button>booked</button>
+        </div>
+    </section>
+</body>
+</html>
